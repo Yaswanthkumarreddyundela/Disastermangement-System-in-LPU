@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Safe Pop-up</title>
+	<style>
+		.popup {
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			background-color: #ffffff;
+			border: 1px solid #ccc;
+			padding: 20px;
+			box-shadow: 0px 0px 10px #ccc;
+			z-index: 9999;
+		}
+		.popup img {
+			width: 50px;
+			height: 50px;
+			margin-right: 10px;
+			vertical-align: middle;
+		}
+		.popup p {
+			display: inline-block;
+			vertical-align: middle;
+			font-size: 18px;
+			font-weight: bold;
+			margin: 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="popup">
+		<img src="images/tick.png" alt="Tick Mark">
+		<p>Safe Here</p>
+	</div>
+</body>
+</html>
